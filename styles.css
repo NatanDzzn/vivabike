@@ -1,4 +1,4 @@
-/* Estilos base */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -61,7 +61,7 @@ nav ul li a {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 20%; /* Ajuste para ocupar quase toda a largura em telas pequenas */
+    width: 20%; 
     margin-bottom: 20px;
     text-align: center;
 }
@@ -117,9 +117,7 @@ nav ul li a {
     color: #4fa7e2;
 }
 
-/* Media queries para tornar o site responsivo */
 
-/* Para telas menores que 768px (tablet e celular) */
 @media screen and (max-width: 768px) {
     nav ul li {
         display: block;
@@ -132,10 +130,10 @@ nav ul li a {
     }
     
     .produto {
-        width: 100%; /* Ajuste para ocupar toda a largura em telas pequenas */
+        width: 100%; 
     }
 
     .banner video {
-        width: 100%; /* Ajuste para ocupar toda a largura em telas pequenas */
+        width: 100%;
     }
 }
